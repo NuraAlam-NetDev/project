@@ -1,15 +1,16 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+    /* background-color: red; */
+} */
 
 .logo{
     width: 139px;
     height: 60px;
     margin-left: 20px;
 }
-header .container{
+ .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,7 +51,7 @@ nav .btn{
     height: 500px;
     text-align: center;
     margin: 0 auto;
-    background-image: url("/images/hero-bg.png"); 
+    background-image: url("images/hero-bg.png"); 
     background-position: 100%;
     background-size: 100%;
     text-align: center;
